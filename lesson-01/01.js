@@ -6,8 +6,6 @@ let sum = 0;
 let count = 1;
 while (count <= 20  ) {
     sum = sum + count;
-    alert(sum);
-    console.log(sum);
     count = count + 1;
 }
 

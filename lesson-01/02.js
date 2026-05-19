@@ -11,10 +11,6 @@ let count = 1;
 while (count <= 10 ) {
 
     factorial = factorial * count ;
-    console.log(factorial);
     count = count + 1;
-    // alert(factorial);
 
 }
-
-console.log(factorial);
