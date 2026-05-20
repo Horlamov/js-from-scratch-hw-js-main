@@ -4,11 +4,8 @@
  * Результат сохраните в переменной grade.
  */
 
-let score = 0; // тестовое значение, можно изменять
+const score = 45; // тестовое значение, можно изменять
 let grade;
-while (score < 100) {
-    score = score + 1;
-
 
     if (score <= 49) {
         grade = "F";
@@ -21,5 +18,4 @@ while (score < 100) {
     } else {
         grade = "B";
     }
-    console.log('Твой балл равен: ' + grade +" "+ score)
-}
+    console.log('Твой балл равен: ' + grade)
