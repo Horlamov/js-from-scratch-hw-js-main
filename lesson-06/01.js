@@ -43,3 +43,4 @@ const evens = filter(numbers, (element, index) => {
 
 console.log(evens); // [2, 4]
 
+
